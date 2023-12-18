@@ -1,0 +1,239 @@
+-------Live demo--------
+https://estate.100jsprojects.com/
+
+YouTUBE VEDIO link
+https://www.youtube.com/watch?v=VAaUy_Moivw&list=PLROaTQosA7paWVsR4xksCNAYtWVs1r2tY&index=3
+
+---------PROJECT SETUP-------------
+npm create vite@latest client
+then select react + javascript + swrc
+
+---------------TAILWIND VITE---------------
+Install Tailwind CSS with Vite
+--website link
+https://tailwindcss.com/docs/guides/vite
+
+use ALL STEPS
+2, 3 , 4 , 5
+--------------------INSTALLATIONS---------------------
+--use thic command--
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+---then we got two files in our client folder 
+1-postcss.config.js
+2-tailwindcss.config.js
+
+---------INSTALL tHIS EXTENSIONS----------
+ES7+ React/Redux/React-Native/JS snippets
+Console Ninja
+GitHub Copilot  (It is suggest you codding)
+GitHub Copilot check
+Tailwind CSS IntelliSense (it is sugggest you css classes)
+
+
+-------SET UP THE STYLESHEET------
+Make a Folder Pages
+
+and then use Routing in App.jsx
+
+-------------FOR ICONS-----------
+
+https://react-icons.github.io/react-icons/
+npm i react-icons
+import { FaSearch } from "react-icons/fa";
+  <FaSearch />
+  ---FA stand for (fontAwsome)
+
+-------------------------------------
+cd ..   (go to main Folder Name)
+npm init -y
+
+------------NOW IN A API FOLDER---------------
+npm i express
+npm i nodemon
+
+----------CHANGE THE SCRIPT----------------
+"scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+
+
+-------------------CREATE MONGODB------------
+npm i mongoose 
+1-create New PROJECT
+2-set user & password , IP Addres  
+musfirarazzaq17331
+SVUHQ0QF0KnNdjse
+3- create FILE  (.env)  (npm i dotenv) 
+
+
+------------CREATE USER MODEL-------------
+FOLDER - (MODEL)
+user.model.js
+
+-----------CREATE A TEST API ROUTE---------------
+FOLDER- (ROUTES)
+WE need to define all routes in index.js
+user.route.js
+
+FOLDER---(CONTROLARS)
+user.controller.js
+
+--------------CREATE SIGN UP API ROUTE---------------
+For get the information username , email, password from our client side
+if we change the password save in database
+
+FOLDER- (ROUTES)
+auth.route.js
+
+FOLDER---(CONTROLARS)
+auth.controller.js
+
+API ROTES TEST
+https://insomnia.rest/
+
+when we put in main file INDEX.JS 
+app.use(express.json());
+then we get all data by insomnia
+
+---------FOR SAVE THE PASSWORD IN DATABASE NO ANYOTHER CAN SEE ONLY FOR ADMIN
+npm i bcryptjs
+
+--------CREATE A MIDDLEWARE AND A FUNCTION TO HANDLE POSSIBLE ERRORS-------
+FOLDER --(UTILS)
+error.js
+
+===>>COMPLETE SIGN UP PAGE UI
+===> COMPLETE SIGN UP PAGE FINCTIONALITY  
+====> CREATE SIGN IN API ROUTE   1-auth.controller.js 
+npm i jsonwebtoken
+===> COMPLETE SIGN IN PAGE FUNCTIONALITY
+
+====>> ADD REDUX TOOLKIT
+website:
+https://redux-toolkit.js.org/
+npm install @reduxjs/toolkit react-redux
+FOLDER - (REDUX)
+store.js
+FOLDER - (REDUX + user)
+userSlice.js
+DOWNLOAD EXTENSIONS ---REDUX DEVTOOL
+
+======>> ADD REDUX PERSIST
+npm i redux-persist
+store.js
+
+===>>> Add Goodle OATH FUNCTIONALITY  <<<=====
+FOLDER --COMPONENTS (OAuth.jsx)
+https://firebase.google.com/
+npm install firebase
+firebase.js  & .env
+
+===>> UPDATE THE HEADER AND MAKE THE PROFILE PAGE PRIVATE <<<=======
+FOLDER = COMPONENTS == (header.jsx)
+PrivateRoute.jsx
+
+====>> COMPLETE PROFILE PAGE UI <<<========
+profile.jsx
+
+===>> COMPLETE IMAGE UPLOAD FUNCTIONALITY <<======
+===>> CREATE UPDATE USER API ROUTE <<<======
+verifyUser.js 
+npm i cookie-
+
+===>> COMPLETE UPDATE USER FUNCTIONALITY <<======
+===>> ADD DELETE USER FUNCTIONALITY <<======
+===>> ADD SIGN OUT USER FUNCTIONALITY <<====
+
+====>> ADD CREATE LISTING API ROUTE <<====
+listing.route.js
+listing.controller.js
+listing.model.js
+
+===>> COMPLETE CREATE LISTING PAGE UI <<===
+CreateListing.jsx
+
+===>> COMPLETE UPLOAD LISTING IMAGES FUNCTIONALITY <<=======
+===>> COMPLETE CreateListing PAGE FUNCTIONALITY <<=====
+===>> CREATE GET USER LISTING API ROUTE<<<=====
+====>> COMPLETE SHOW USER LISTING FUNCTIONALITY <<====
+
+===>> COMPLETE DELETE USER LISTING FUNCTIONALITY <<====
+listing.route.js
+listing.controller.js
+now work on profile.jsx on delete button at the end
+
+===>>> CREATE UPDATE LISTING API ROUTE <<====  
+listing.route.js
+listing.controller.js
+
+===>>> COMPLETE UPDATE LISTING FUNCTIONALITY <<<===
+UpdateListing.jsx
+copy the create listing full file 
+and add only useeffect FUNCTIONALITY
+
+====>> Add IMAGE slider to the LISTING pGE <<<==========
+Listing.jsx
+
+===>> COMPLETE LISTING PAGE <<====
+===>>> ADD CONTACT LANDLORD FUNCTIONALITY TO THE LISTING PAGE <<<===
+listing.jsx
+
+in a COMPONENTS Folder
+Contact.jsx
+
+===>> CREATE SEARCH API ROUTE <<<==============
+====>> COMPLETE HEADER SEARCH FORM FUNCTIONALITY <<<===
+===>> CREATE SEARCH PAGE UI <<====
+Search.jsx
+
+===>> ADD ONCHANGE AND SUBMIT FUNCTIONALITY TO THE SEARCH PAGE >>========
+====>>> CREATE THE LISTING ITEM COMPONENTS AND SHOW LISTING <<<=====
+ListingItem.jsx
+
+https://github.com/tailwindlabs/tailwindcss-line-clamp
+npm install -D @tailwindcss/line-clamp
+
+===>> ADD SHOW MORE LISTING FUNCTIONALITY <<<========
+===>> COMPLETE HOME PAGE <<<======
+===>> COMPLETE ABOUT PAGE <<<========
+
+-------------------Problem facing-------
+about git rep
+in Contact.js (problems)
+2:13 mint doneeeeeeeeeee
+2:48 mint  starttttttttt
+3: 25 doneeeeeeeeeeeee
+4:4 mint
+5:35 mint 
+6:28 mintttt
+6: 59 mintttt
+8: 05 
+9:01
+9:50
+
+
+-------------TOPICS----------
+usenavigate
+e.preventDefault();
+ ...formData,
+ jsonwebtoken & JWT scret key
+ express.js
+ REDUX TOOLKIT
+ dispatch FUNCTION (react reduxjs)
+ useselector hook  (React reduxjs)
+ REDUX PERSIST
+ firebase
+ async & await
+ outlet react-router-dom
+ useref react
+ useState and useeffect react hooks
+json.parse
+promises
+filter method
+{ useNavigate } from 'react-router-dom';
+{ useParams } from 'react-router-dom';
+import { Swiper, SwiperSlide,  SwiperCore, Navigation } from 'swiper/react';
+import 'swiper/css/bundle';
+ parseInt
